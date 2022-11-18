@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+header ,
+footer {
+    height: 20vh;
+    background-color: rgb(43, 2, 55);
+    padding: 15px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {
+    height: 100vh;
+    display: flex;
+
+}
+nav {
+    width: 20%;
+    padding: 15px;
+    background-color: rgb(2, 244, 179);
+    
+    
+}
+aside {
+    width: 20%;
+    padding: 15px;
+    background-color: rgb(131, 244, 2);
+    border-left: 20px solid white;
+}
+article {
+    width: 60%;
+    padding: 15px;
+    background-color: rgb(131, 244, 2);
+    height: 90%;
+    border-top: 20px solid white;
+}
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    column-gap: 30px;
+    /*
+    gap short hand sa row-gap at column-gap
+    */
+}
+.flex-item.left {
+    width: 70%;
+
+}
+.field {
+    display: flex;
+    margin-bottom: 5px;
+}
+.field label {
+    flex:2;
+
+}
+.field input {
+    flex:3;
+    padding: 5px;
+}
+.flex-item.right {
+    width: 40%;
+}
+
+
+
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+input[type="submit"] {
+ border: 0;
+ padding: 10px;
+ background-color: gray;
+ border-radius: 10px;
+ color: antiquewhite;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+   }
+   form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+   }
