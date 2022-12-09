@@ -1,41 +1,39 @@
 * {
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-
-
 
 header ,
 footer {
-    height: 20vh;
-    background-color: rgb(43, 2, 55);
+    height: 12vh;
+    background-color: rgb(99, 253, 4);
     padding: 15px;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 main {
-    height: 100vh;
+    height: 80vh;
     display: flex;
 
 }
 nav {
     width: 20%;
     padding: 15px;
-    background-color: rgb(2, 244, 179);
-    
-    
+    background-color: rgb(135, 242, 248);
 }
 aside {
     width: 20%;
     padding: 15px;
-    background-color: rgb(131, 244, 2);
-    border-left: 20px solid white;
+    background-color: rgb(246, 246, 161);
+    margin-left: 10px;
 }
 article {
     width: 60%;
-    padding: 15px;
-    background-color: rgb(131, 244, 2);
-    height: 90%;
-    border-top: 20px solid white;
+    padding: 0;
+    background-color: rgb(246, 246, 161);
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    
 }
 body {
     margin: 0;
@@ -56,20 +54,17 @@ body {
     margin-bottom: 5px;
 }
 .field label {
-    flex:2;
-
+    flex:1;
+    
 }
 .field input {
     flex:3;
-    padding: 5px;
+    padding: 8px;
+    
 }
 .flex-item.right {
-    width: 40%;
+    width: 30%;
 }
-
-
-
-
 .btn-container {
     text-align: center;
     margin-top: 20px;
@@ -78,9 +73,9 @@ body {
 input[type="submit"] {
  border: 0;
  padding: 10px;
- background-color: gray;
+ background-color: rgb(147, 144, 145);
  border-radius: 10px;
- color: antiquewhite;
+ color: rgb(250, 255, 255);
 }
 input[type="submit"]:hover {
     cursor: pointer;
@@ -89,5 +84,5 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
    }
